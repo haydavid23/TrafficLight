@@ -1,0 +1,56 @@
+@import "~bootstrap/scss/bootstrap.scss";
+body{background-color:gray}
+
+
+.tl {
+    background-color:black;
+    width: 130px;
+    height:400px;
+    border-radius:25px;
+    transform: translate(0,30%)
+    
+    
+}
+
+.circle-red {
+    background-color:red;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin:auto;
+    cursor:pointer;
+    
+}
+.circle-orange {
+    background-color:orange;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin:auto;
+    cursor:pointer;
+    
+    
+}
+.circle-green {
+    background-color:green;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin:auto;
+    cursor:pointer;
+    
+}
+
+.pole {
+    background-color:black;
+    width:20px;
+    height:120px;
+    transform: translate(365%, 0%);
+    
+}
+
+.selected-red {box-shadow: red 0px 0px 50px 20px};
+
+.selected-orange {box-shadow: orange 0px 0px 50px 20px};
+
+.selected-green {box-shadow: green 0px 0px 50px 20px};
